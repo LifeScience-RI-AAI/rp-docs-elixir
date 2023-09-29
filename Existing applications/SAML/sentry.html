@@ -145,11 +145,11 @@
 <h2 id="configuration">Configuration</h2>
 <ol>
 <li>In Sentry administration select <strong>User Authentication &gt; SSO</strong>.</li>
-<li>Enter %SAML_METADATA_URL% in the <strong>Metadata URL</strong> field.</li>
+<li>Enter https://login.elixir-czech.org/proxy/saml2/idp/metadata.php in the <strong>Metadata URL</strong> field.</li>
 <li>Press the <strong>Get metadata</strong> button.<ul>
 <li>If there is an error, Sentry most likely does not have internet access (e.g. due to the firewall). In that case, follow the steps below:<ol>
 <li>Select the <strong>XML</strong> tab.</li>
-<li>Download the contents of %SAML_METADATA_URL% and paste them in the <strong>Metadata XML</strong> field.</li>
+<li>Download the contents of https://login.elixir-czech.org/proxy/saml2/idp/metadata.php and paste them in the <strong>Metadata XML</strong> field.</li>
 <li>Confirm through the <strong>Parse Metadata</strong> button.</li>
 </ol>
 </li>
